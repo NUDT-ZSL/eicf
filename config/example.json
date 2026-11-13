@@ -1,0 +1,26 @@
+{
+  "global_max_inflight": 3,
+  "max_retries": 3,
+  "retry_backoff_seconds": 0,
+  "request_timeout_seconds": 5.0,
+  "db_path": "audit.db",
+  "snapshot_dir": "snapshots",
+  "sites": [
+    {
+      "site_id": "A",
+      "base_url": "http://127.0.0.1:8001",
+      "page_size_limit": 2
+    },
+    {
+      "site_id": "B",
+      "base_url": "http://127.0.0.1:8002",
+      "page_size_limit": 1
+    },
+    {
+      "site_id": "C",
+      "base_url": "http://127.0.0.1:8003",
+      "page_size_limit": 2
+    }
+  ]
+}
+

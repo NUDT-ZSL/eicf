@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+audit.db
+eicf_audit.db
+snapshots/
+snap_*/
+demo_config.json
+.pytest_cache/
+
